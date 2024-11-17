@@ -24,7 +24,7 @@ func main() {
 	command.Register("list", "list all registered services", "l", command.List{})
 	command.Register("get", "get the latest passcode", "g", command.Get{})
 	command.Register("add", "add a service with a secret", "a", command.Add{})
-	command.Register("scan", "add a service with a qr code", "a", command.Scan{})
+	command.Register("scan", "add a service with a qr code", "s", command.Scan{})
 	command.Register("remove", "remove a specific service", "r", command.Remove{})
 	command.Register("purge", "purge all registered services", "p", command.Purge{})
 
